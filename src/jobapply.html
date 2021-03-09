@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body  style="background-color:#D7CD0E ;">
+      <form  method ="POST" action ="submitjap.php" >
+        
+          <h1 >Job Application Form</h1>
+        
+        <p>Please fill the following application form in order to Apply.</p>
+        <br>
+		<p>NIC<span class="jarequired">*</span></p>
+		<input type="text" name="id" placeholder="NIC" required/>
+		<br>
+		
+          <p>Name<span class="jarequired">*</span></p>
+          <br>
+            <input type="text" name="ftname" placeholder="First" required/>
+            <input type="text" name="ltname" placeholder="Last" required/>
+          
+      <br>
+	  <p>gender<span class="jarequired">*</span></p>
+            <input type="text" name="status" required/>
+			<br>
+			 <p>Date of birth<span class="jarequired">*</span></p>
+            <input type="date" name="bdate" required/>
+            
+			<br>
+			<p>Current Employee status<span class="jarequired">*</span></p>
+            <input type="text" name="ess" required/>
+			<br>
+			
+            <p>Email<span class="jarequired">*</span></p>
+            <input type="text" name="el" required/>
+         <br>
+            <p>Phone<span class="jarequired">*</span></p>
+			<input type="text" name="ph" required/>
+         <br>
+        <div class="jaitem">
+          <p>Submit your resume by providing your resume URL or attach file:</p>
+          <input type="text" name="providing"/>
+  <input type="file" name="file" accept="file/*">
+        </div>
+        
+        <div class="jabtn-block">
+          <button type="submit" value = "submit">Apply For The Job</button>
+		  <a href="jsdesc.html">Back</a>
+
+
+
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,640 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: #f5dea2;
+    height: 600px;
+
+}
+
+ .menuBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding: 5px;
+}
+
+.menuBar ul li {
+    float: left;
+    width:25%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menuBar ul li a {
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+    margin-bottom:0px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.menuBar ul li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background: linear-gradient(to bottom left, #ffcc00 0%, #cc6600 100%);
+}
+
+a:hover {
+    background: linear-gradient(to bottom left, #ffcc00 0%, #cc6600 100%);
+    color: black;
+}
+.middle-content{
+    width: 100%;
+    display: block;
+    height:350px;
+
+}
+.middle-content .side-menu {
+    width: 20%;
+    float: left;
+    padding: 15px;
+}
+
+.middle-content .side-menu  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.middle-content .side-menu  ul li {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.middle-content .side-menu  ul li a{
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display:block;
+
+}
+
+.middle-content .side-content{
+    width: 75%;
+    float: right;
+    height: 335px;
+    margin: 20px;
+    background-color: black;
+
+}
+.middle-content .side-content  .co_details{
+    margin-left:350px;
+    margin-top: 20px;
+}
+
+.middle-content .side-content p{
+    color:white;
+}
+
+.middle-content .side-content img{
+
+   display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    width:8%;
+}
+/*send message*/
+.middle-content .side-content .co_edit_details .frm_proMessage{
+    color:white;
+    padding:20px;
+    margin-left: 350px;
+    height: 350px;
+}
+.middle-content .side-content .co_edit_details . frm_proMessage label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    color:white;
+}
+.middle-content .side-content .co_edit_details . frm_proMessage input{
+    display: inline-block;
+    float: left;
+}
+
+
+
+/*provider_profile_edit*/
+.middle-content .side-content .co_edit_details .frm_proEdit{
+    color:white;
+    padding:10px;
+    margin-left: 150px;
+    height: 350px;
+}
+.middle-content .side-content .co_edit_details .frm_proEdit label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: left;
+}
+.middle-content .side-content .co_edit_details .frm_proEdit input{
+    display: inline-block;
+    float: left;
+}
+.middle-content .side-content .co_edit_details .frm_proEdit #chkAgree{
+    padding:0px;
+    margin: 30px 50px;
+    width:20%;
+}
+.middle-content .side-content .co_edit_details .frm_proEdit #btnSubmit{
+    display:inline;
+    color: black;
+    margin:10px 50px;
+    width: 10%;
+
+}
+.middle-content .side-content .co_edit_details .frm_proEdit .btnClose {
+    display:inline;
+    color: black;
+    margin: 10px 10px;
+}
+.middle-content .side-content .co_edit_details .frm_proEdit img {
+    float:right;
+    margin:10px;
+    width:20%;
+}
+.middle-content .side-content .co_edit_details .frm_proEdit input{
+    margin:5px;
+}
+
+/*post jobs*/
+
+.side-content .co_edit_details .frm_proEdit .btnSubmit{
+    margin-top:120px;
+}
+/*list of seekers */
+.middle-content .side-content .seeker_image img{
+    float:right;
+    width:20%;
+    padding: 5px;
+    margin:10px;
+}
+.middle-content .side-content .seeker_details
+{
+    width:40%;
+
+}
+.middle-content .side-content .seeker_details{
+    float: left;
+    margin: 25px 40px;
+}
+.middle-content .side-content .seeker_details #btn_ok{
+    margin-left: 60px;
+    width: 50px;
+    height: 50px;
+}
+.middle-content .side-content table{
+    width:90%;
+    height:300px;
+    margin:15px 38px;
+
+}
+.middle-content .side-content table, td, th {
+    border: 1px solid white;
+    color:white;
+    border-collapse:collapse;
+}
+tr{
+    text-align: center;
+    height: 5px;
+}
+
+/*list of post jobs*/
+.middle-content .side-content .job_details{
+    float: left;
+    margin: 25px 40px;
+}
+.middle-content .side-content .ad_image img{
+    float: right;
+    margin:50px;
+    width:15%;
+}
+.middle-content .side-content .ad_image img:hover{
+    width:25%;
+    margin:0px;
+}
+/*change Password*/
+.middle-content .side-content .co_edit_details .frm_passEdit
+{   text-align: center;
+    color: white;
+    display: block;
+}
+.middle-content .side-content .co_edit_details .frm_passEdit label{
+    padding: 20px 0px;
+    margin-left:180px;
+    color: red;
+}
+
+.middle-content .side-content .co_edit_details .frm_passEdit input{
+    display: block;
+    float:right;
+    margin-right: 200px;
+}
+.middle-content .side-content .co_edit_details .frm_passEdit input.btnUpdate{
+    display: inline;
+}
+.middle-content .side-content .co_edit_details .frm_proEdit .btnSubmit{
+    display: inline;
+}
+/*log out*/
+.middle-content .side-content .logOut{
+    margin:70px 400px;
+    width:50%;
+}
+.middle-content .side-content .logOut img{
+    width: 25%;
+}
+.middle-content .side-content .logOut p{
+    font-size: 25px;
+    margin-left:-40px;
+}
+.middle-content .side-content .logOut input{
+    width:15%;
+    height: 20px;
+}
+/*footer*/
+.footer {
+    margin-top:27px;
+    height: 230px;
+    display: block;
+    background: black;
+    width: 100%;
+}
+.footer .topFooter .column {
+
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    text-align: left;
+    height: 180px;
+
+}
+
+.footer .topFooter .column h3 {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+    display:block;
+}
+.footer .topFooter .column a{
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    display:block;
+}
+
+.footer .topFooter .column a:hover{
+    background: none;
+}
+
+.footer .topFooter .column  address {
+    font-family: sans-serif;
+    text-align: left;
+    width: 40%;
+    color: white;
+    padding:13px 0px 0px 0px;
+    margin: 8px 8px 0px 8px;
+}
+.footer .topFooter .column p{
+    width:100%;
+    color: white;
+    margin:10px;
+}
+/*bottom footer*/
+.footer .bottomFooter {
+    height: 18%;
+    background-color: black;
+    display: block;
+    color: white;
+    width: 100%;
+    display: block;
+}
+
+.footer .bottomFooter hr {
+    background-color: white;
+    width: 100%;
+}
+
+.footer .bottomFooter p {
+    margin: 5px;
+    color: white;
+    width: 50%;
+    float: left;
+    height: 10%;
+}
+
+.footer .bottomFooter .social_media {
+    width: 25%;
+    float: left;
+    padding-left:35px;
+    margin-left:40px;
+}
+
+.footer .bottomFooter .social_media img {
+    width: 20%;
+    float: right;
+    padding: 1px 10px 5px 10px;
+
+
+}
+
+/*tablet*/
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+
+    .middle-content .side-content{
+        width:73%;
+        height:400px;
+
+    }
+    /*list of seekers */
+    .middle-content .side-content table{
+        width:95%;
+        margin:15px 5px;
+    }
+    /*footer*/
+    .footer {
+        margin-top:95px;
+
+    }
+    .footer .topFooter{
+        width: 100%;
+        display:block;
+        margin:0;
+        padding:0px;
+    }
+    .footer .topFooter .column{
+        width:29%;
+
+    }
+
+    .footer .bottomFooter {
+       margin-top:140px;
+
+    }
+    .middle-content .side-content  .co_details{
+        margin-left:150px;
+        margin-top: 40px;
+    }
+    .middle-content .side-content .co_edit_details .frm_proEdit .btnSubmit{
+        display:block;
+        color: black;
+        margin-top:40px;
+        margin-left:-150px;
+        width: 30%;
+
+    }
+    .middle-content .side-content .co_edit_details .frm_proEdit .btnClose {
+        margin-left:-25px;
+    }
+}
+/*mobile*/
+@media screen and (max-width: 600px) {
+    .menuBar ul li {
+        float: none;
+        width:100%;
+    }
+    .middle-content .side-menu{
+        width: 25%;
+    }
+    .middle-content .side-menu  ul{
+        width:100%;
+    }
+    .middle-content .side-menu  ul li {
+        width:100%
+    }
+    .middle-content .side-content{
+       width: 75%;
+        float: right;
+        height: 430px;
+        margin: 15px 0px 0px 0px;
+        background-color: black;
+    }
+    .middle-content .side-content table{
+        width:100%;
+        margin:16px 2px;
+    }
+    .footer {
+        margin-top:100px;
+        height:300px;
+        display: block;
+        background: black;
+        width: 100%;
+    }
+    .footer .topFooter{
+        height:170px;
+    }
+    .footer .topFooter .column {
+        width: 100%;
+        padding:0px;
+        text-align: left;
+        height:89px;
+        border-bottom: 1px solid white;
+
+    }
+    .footer .topFooter .column a{
+        padding:0px 25px 2px 5px;
+        width: 100%;
+        margin: 0px;
+        background-color: black;
+        color: white;
+        text-decoration: underline;
+        display:inline;
+    }
+    .footer .topFooter .column  address {
+        font-family: sans-serif;
+        text-align: left;
+        width:100%;
+        color: white;
+        height: 10px;
+        padding:0px;
+    }
+    .footer .topFooter .column p{
+        width:100%;
+        color: white;
+        margin:10px;
+    }
+    .footer .bottomFooter {
+        height: 18%;
+        width: 100%;
+        margin-top:100px;
+
+    }
+    .footer .bottomFooter p {
+        margin: 5px;
+        color: white;
+        width: 70%;
+        float: left;
+        height: 10%;
+    }
+
+    .footer .bottomFooter .social_media {
+        width: 20%;
+        float: right;
+        padding:0px;
+        margin:0px;
+    }
+
+    .footer .bottomFooter .social_media img {
+        width: 25%;
+        float: left;
+        padding:5px 2px 2px 5px;
+
+
+    }
+    /*list seeker*/
+    .middle-content .side-content{
+        width: 63%;
+        float: right;
+        height: 420px;
+        margin: 25px;
+        background-color: black;
+
+    }
+    .middle-content .side-content p{
+        color:white;
+    }
+    .middle-content .side-content .seeker_image img{
+        padding: 5px;
+        margin:2px;
+    }
+
+    /*provider profile */
+    .middle-content .side-content  .co_details{
+        margin-left:50px;
+        margin-top: 40px;
+    }
+    .middle-content .side-content .co_details img{
+        display: block;
+        margin: 20px auto;
+        width: 14%;
+
+    }
+    /*provider_profile_edit*/
+    .middle-content .side-content .co_edit_details .frm_proEdit{
+        color:white;
+        padding:0px;
+        margin-left: 8px;
+        width:60%;
+    }
+
+    .middle-content .side-content .co_edit_details .frm_proEdit .btnSubmit{
+        display:block;
+        color: black;
+        margin:50px 0px;
+        width: 25%;
+
+    }
+    .middle-content .side-content .co_edit_details .frm_proEdit .btnClose {
+        display:block;
+        color: black;
+        margin:-68px 0px;
+        width: 25%;
+    }
+/*list of posted jobs*/
+    .middle-content .side-menu{
+        width:18%;
+        margin-left: 0px;
+        padding: 9px 0px;
+    }
+    .middle-content .side-content{
+        width:80%;
+        margin: 13px 0px;
+    }
+    .middle-content .side-content .job_details{
+        float: left;
+        margin: 2px;
+    }
+    .middle-content .side-content .ad_image img{
+        float: right;
+        margin:2px;
+        width:15%;
+    }
+    .middle-content .side-content .ad_image img:hover{
+        width:85%;
+        margin:3px 0px;
+        font-color:black;
+
+    }
+    /*Message*/
+    .middle-content .side-content .co_edit_details .frm_proEdit #btnSubmit_msg{
+        margin: -30px;
+    }
+
+    /*provider_profile_edit*/
+    .middle-content .side-content .co_edit_details .frm_proEdit{
+        padding:5px;
+        margin-left: 150px;
+        height: 300px;
+    }
+    .middle-content .side-content .co_edit_details .frm_proEdit label{
+        display: inline-block;
+        float: left;
+        clear: left;
+        width: 150px;
+        text-align: left;
+    }
+    .middle-content .side-content .co_edit_details .frm_proEdit input{
+        display: inline-block;
+        float: left;
+    }
+    .middle-content .side-content .co_edit_details .frm_proEdit .btnSubmit{
+        display:inline;
+        color: black;
+        margin:40px -150px;
+        width: 30%;
+
+    }
+    .middle-content .side-content .co_edit_details .frm_proEdit .btnClose {
+        display:inline;
+        color: black;
+        margin: 40px -30px;
+    }
+    .middle-content .side-content .co_edit_details .frm_proEdit .btnSubmit_msg{
+
+        color: black;
+        margin:200px -330px;
+        width: 50%;
+
+    }
+    .middle-content .side-content .co_edit_details .frm_proEdit .pro_attach{
+        width:20%;
+    }
+}
+
+
+
+	<?php
+	
+		$dbSevername = "localhost";
+		$dbUsername = "root";
+		$dbPassword = "";
+		$dbName = "job_portal";
+
+		$conn = mysqli_connect($dbSevername, $dbUsername, $dbPassword ,$dbName);
+
+		if ($conn->connect_error) {
+		    die("Connection failed: " . $conn->connect_error);
+		}
+?>
